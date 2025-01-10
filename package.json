@@ -1,0 +1,16 @@
+{
+  "name": "js-homework",
+  "version": "1.0.0",
+  "description": "Домашнее задание по JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start-task-1": "http-server task-1",
+    "start-task-2": "http-server task-2",
+    "start-task-3": "http-server task-3"
+  },
+  "author": "Еugene Kalyuk",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
