@@ -3,6 +3,18 @@
     <title>JS Part 1 Homework: vacancies</title>
 </head>
 <body>
-<script type="module" src="vacancies.js"></script>
+
+    <script>
+        window.onload = function() {
+            const jsFileName = 'vacancies.js'; 
+            const newJsFileName = jsFileName + '?v=' + new Date().getTime(); 
+            const scriptTag = document.createElement('script');
+            scriptTag.type = 'module';
+            scriptTag.src = newJsFileName;
+            document.body.appendChild(scriptTag);
+        };
+        // Задолбало хэширование
+    </script>
+
 </body>
 </html>

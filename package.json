@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Домашнее задание по JavaScript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start-task-1": "http-server task-1",
     "start-task-2": "http-server task-2",
